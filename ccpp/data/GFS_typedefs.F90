@@ -3402,7 +3402,7 @@ module GFS_typedefs
 !--- debug flags
     logical              :: debug          = .false.
     logical              :: pre_rad        = .false.         !< flag for testing purpose
-    logical              :: print_diff_pgr = .false.         !< print average change in pgr every timestep
+    logical              :: print_diff_pgr = .true.         !< print average change in pgr every timestep
 
 !  max and min lon and lat for critical relative humidity
     integer :: max_lon=5000, max_lat=2000, min_lon=192, min_lat=94
